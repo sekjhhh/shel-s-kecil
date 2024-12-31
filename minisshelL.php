@@ -1,5 +1,5 @@
 <?php
-$password = "Sikecilberjakdewas99%"; // password
+$password = "Sikecilberjakdewasa99%"; // password
 session_start();
 error_reporting(0);
 set_time_limit(0);
