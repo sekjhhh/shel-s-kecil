@@ -1,0 +1,62 @@
+
+
+
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="title" content="Hacked By SEO K KECIL"><meta name="description" content="Hello Admin!"><meta property="og:image" content="https://i.ibb.co/PNZ1SQZ/e0db09e6-8c2d-49ba-b70b-aaafe9065de2.jpg"><link rel="icon" type="image/x-icon" href="https://i.ibb.co/fQBt9BB/CC-20240812-004728.png"><title>"Hacked By SEO K"</title><style>
+ body {
+ margin: 0;
+ font-family: 'Courier New', Courier, monospace;
+ background-image: url(https://i.ibb.co/nMmdDrQ/6zjx.gif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+ overflow: hidden;
+ color: #c9d1d9;
+ text-align: center;
+ }
+ .main {
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ }
+ .haha {
+ text-align: center;
+ padding: 20px;
+ }
+ .haha h1 {
+ margin: 0;
+ font-size: 2em;
+ }
+ h3 {
+ font-size: 2em;
+ }
+ p {
+ font-size: 25px;
+ }
+ img {
+ width: 250px;
+ }
+ #button {
+ display:none;
+ }
+ </style></head><body onclick="music()"><div class="main"><div class="haha"><img src="https://res.cloudinary.com/di1pwoapk/image/upload/v1737373092/skk1x1clear_oswurm.png"><br><h1>.../Hacked By <font color="red">SEO K KECIL\...</font></h1></div><div class="mssg"><h3>Hello,<br>"Kuasa itu bukan diberikan, tapi diambil." </h3></div><div class="greetings"><h2></h2><p>|KUMAHA DAMANG|</p></div></div><button id="button">Play</button><audio id="background-music" loop><source src="https://c.top4top.io/m_3104l78nl1.mp3" type="audio/mp3"></audio><script>
+ function music() {
+ var audio = document.getElementById('background-music');
+ var playButton = document.getElementById('button');
+ 
+ playButton.click();
+ 
+ audio.play();
+ }
+ 
+ document.addEventListener('DOMContentLoaded', function() {
+ var playButton = document.getElementById('play-button');
+ var audio = document.getElementById('background-music');
+ 
+ playButton.addEventListener('click', function() {
+ audio.play();
+ });
+ });
+ </script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'90bd4e9d7c1e4bbc',t:'MTczODUzMjA4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
