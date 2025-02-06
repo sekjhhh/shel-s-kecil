@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>404 Page Not Found</title>
+
+	<style type="text/css">
+		@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+
+		html, body {
+		  height: 100%;
+		  margin: 0;
+		}
+
+		body {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  background-color: #000000;
+		  background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  font-family: 'Inconsolata', Helvetica, sans-serif;
+		  font-size: 1.5rem;
+		  color: rgba(128, 255, 128, 0.8);
+		  text-shadow:
+		      0 0 1ex rgba(51, 255, 51, 1),
+		      0 0 2px rgba(255, 255, 255, 0.8);
+		  overflow: hidden;
+		}
+
+		.terminal {
+		  text-align: center;
+		  padding: 2rem;
+		  background-color: rgba(0, 0, 0, 0.8);
+		  border: 1px solid rgba(128, 255, 128, 0.4);
+		  border-radius: 10px;
+		  box-shadow: 0 0 10px rgba(51, 255, 51, 0.8);
+		}
+
+		.output {
+		  color: rgba(128, 255, 128, 0.8);
+		  margin-bottom: 1rem;
+		}
+
+		.output::before {
+		  content: "> ";
+		}
+
+		a {
+		  color: #fff;
+		  text-decoration: none;
+		}
+
+		a::before {
+		  content: "[";
+		}
+
+		a::after {
+		  content: "]";
+		}
+
+		.errorcode {
+		  color: white;
+		  font-size: 2rem;
+		  text-shadow:
+		      0 0 5px red,
+		      0 0 10px red,
+		      0 0 20px red;
+		}
+
+		.noise {
+		  pointer-events: none;
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+		  background: url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  z-index: -1;
+		  opacity: 0.15;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+<div class="noise"></div>
+
+<div class="terminal">
+  <h1>Error <span class="errorcode">".../Hacked By Mr Skk\..."</span></h1>   <img width="200" src="https://1.bp.blogspot.com/-txnCag9Z9jM/UuKj2FcKOSI/AAAAAAAAAuY/ExDFUIUMyk0/s1600/caveirapirataprataimagek.png">
+  <p class="output">"Kamu tidak dilahirkan untuk menjadi sosok yang sempurna,akan tatapi untuk menjadi dirimu yang apa adanya"</p>
+  <p class="output">Please try to <a href="javascript:history.back()">go back</a> or <a href="https://www.google.co.id/">return to the homepage</a>.</p>
+  <p class="output">Good luck.</p>
+</div>
+
+<audio autoplay loop>
+  <source src="https://f.top4top.io/m_3303w7e3e1.m4a" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
