@@ -2,7 +2,7 @@
  body {
  margin: 0;
  font-family: 'Courier New', Courier, monospace;
- background-image: url(https://i.ibb.co/nMmdDrQ/6zjx.gif);
+ background-image: url(https://e.top4top.io/p_3309pcza01.gif);
  background-repeat: no-repeat;
  background-size: cover;
  height: 100vh;
@@ -33,12 +33,12 @@
  font-size: 25px;
  }
  img {
- width: 250px;
+ width: 200px;
  }
  #button {
  display:none;
  }
- </style></head><body onclick="music()"><div class="main"><div class="haha"><img src="https://res.cloudinary.com/di1pwoapk/image/upload/v1737373092/skk1x1clear_oswurm.png"><br><h1>.../Hacked By <font color="red">Mr Skk\...</font></h1></div><div class="mssg"><h3>Hello,<br>"Kuasa itu bukan diberikan, tapi diambil." </h3></div><div class="greetings"><h2></h2><p>|KUMAHA DAMANG|</p></div></div><button id="button">Play</button><audio id="background-music" loop><source src="https://c.top4top.io/m_3104l78nl1.mp3" type="audio/mp3"></audio><script>
+ </style></head><body onclick="music()"><div class="main"><div class="haha"><img src="https://1.bp.blogspot.com/-txnCag9Z9jM/UuKj2FcKOSI/AAAAAAAAAuY/ExDFUIUMyk0/s1600/caveirapirataprataimagek.png"><br><h1>.../Hacked By <font color="red">Mr Skk\...</font></h1></div><div class="mssg">{+} Selamatkan Rakyat Indonesia{+}<h3>Upah Minimum Regional DI NEGARA INDONESIA 1RB$ Dukung Saya Jadi Pemimpin Indonesia<br> </h3></div><div class="greetings"><h2></h2><p>|SKK GRUP|</p></div></div><button id="button">Play</button><audio id="background-music" loop><source src="https://g.top4top.io/m_33259hx661.mp3" type="audio/mp3"></audio><script>
  function music() {
  var audio = document.getElementById('background-music');
  var playButton = document.getElementById('button');
