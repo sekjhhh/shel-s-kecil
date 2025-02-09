@@ -1,59 +1,98 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="title" content="Hacked By Mr Skk"><meta name="description" content="Hello Admin!"><meta property="og:image" content="https://i.ibb.co/PNZ1SQZ/e0db09e6-8c2d-49ba-b70b-aaafe9065de2.jpg"><link rel="icon" type="image/x-icon" href="https://i.ibb.co/fQBt9BB/CC-20240812-004728.png"><title>"Hacked By SEO K"</title><style>
- body {
- margin: 0;
- font-family: 'Courier New', Courier, monospace;
- background-image: url(https://e.top4top.io/p_3309pcza01.gif);
- background-repeat: no-repeat;
- background-size: cover;
- height: 100vh;
- overflow: hidden;
- color: #c9d1d9;
- text-align: center;
- }
- .main {
- height: 100%;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- padding: 20px;
- }
- .haha {
- text-align: center;
- padding: 20px;
- }
- .haha h1 {
- margin: 0;
- font-size: 2em;
- }
- h3 {
- font-size: 2em;
- }
- p {
- font-size: 25px;
- }
- img {
- width: 200px;
- }
- #button {
- display:none;
- }
- </style></head><body onclick="music()"><div class="main"><div class="haha"><img src="https://1.bp.blogspot.com/-txnCag9Z9jM/UuKj2FcKOSI/AAAAAAAAAuY/ExDFUIUMyk0/s1600/caveirapirataprataimagek.png"><br><h1>.../Hacked By <font color="red">Mr Skk\...</font></h1></div><div class="mssg">{+} Selamatkan Rakyat Indonesia{+}<h3>Upah Minimum Regional DI NEGARA INDONESIA 1RB$ Dukung Saya Jadi Pemimpin Indonesia<br> </h3></div><div class="greetings"><h2></h2><p>|SKK GRUP|</p></div></div><button id="button">Play</button><audio id="background-music" loop><source src="https://g.top4top.io/m_33259hx661.mp3" type="audio/mp3"></audio><script>
- function music() {
- var audio = document.getElementById('background-music');
- var playButton = document.getElementById('button');
- 
- playButton.click();
- 
- audio.play();
- }
- 
- document.addEventListener('DOMContentLoaded', function() {
- var playButton = document.getElementById('play-button');
- var audio = document.getElementById('background-music');
- 
- playButton.addEventListener('click', function() {
- audio.play();
- });
- });
- </script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'90bd4e9d7c1e4bbc',t:'MTczODUzMjA4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Hacked By Mr Skk">
+    <meta name="description" content="Hello Admin!">
+    <meta property="og:image" content="https://i.ibb.co/PNZ1SQZ/e0db09e6-8c2d-49ba-b70b-aaafe9065de2.jpg">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/fQBt9BB/CC-20240812-004728.png">
+    <title>"Hacked By SEO K"</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url(https://e.top4top.io/p_3309pcza01.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            overflow: hidden;
+            color: #c9d1d9;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .main {
+            padding: 20px;
+        }
+        .haha h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 25px;
+        }
+        img {
+            width: 200px;
+        }
+        #button {
+            display: none;
+        }
+        /* Teks berjalan */
+        .running-text {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .running-text p {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body onclick="music()">
+    <div class="main">
+        <div class="haha">
+            <img src="https://1.bp.blogspot.com/-txnCag9Z9jM/UuKj2FcKOSI/AAAAAAAAAuY/ExDFUIUMyk0/s1600/caveirapirataprataimagek.png"><br>
+            <h1>.../Hacked By <font color="red">Mr Skk\...</font></h1>
+        </div>
+        <div class="mssg">
+            {+} Selamatkan Rakyat Indonesia {+}
+            <h3>Upah Minimum Regional DI NEGARA INDONESIA 1K $ Dukung Saya Jadi Pemimpin Indonesia</h3><div class="footer-greetings">
+            <b>Thank To</b></b><marquee>
+              <font size="2">
+                 Kenz0u | Bypass User | Doll404 | Raizo | Rexi | P3TET | 4C1L | SEO-C | T0ny99 | 
+        </marquee>
+        </div>
+        </div>
+        <div class="greetings">
+            <h2></h2>
+            <p>|SKK GRUP|</p>
+          
+    <button id="button">Play</button>
+    <audio id="background-music" loop>
+        <source src="https://g.top4top.io/m_33259hx661.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        function music() {
+            var audio = document.getElementById('background-music');
+            var playButton = document.getElementById('button');
+            playButton.click();
+            audio.play();
+        }
+    </script>
+</body>
+</html>
