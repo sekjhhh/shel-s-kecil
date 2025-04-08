@@ -1,98 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="title" content="Hacked By Mr Skk">
-    <meta name="description" content="Hello Admin!">
-    <meta property="og:image" content="https://i.ibb.co/PNZ1SQZ/e0db09e6-8c2d-49ba-b70b-aaafe9065de2.jpg">
-    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/fQBt9BB/CC-20240812-004728.png">
-    <title>"Hacked By Mr Skk"</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Courier New', Courier, monospace;
-            background-image: url(https://e.top4top.io/p_3309pcza01.gif);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
-            overflow: hidden;
-            color: #c9d1d9;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
-        .main {
-            padding: 20px;
-        }
-        .haha h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        h3 {
-            font-size: 2em;
-        }
-        p {
-            font-size: 25px;
-        }
-        img {
-            width: 200px;
-        }
-        #button {
-            display: none;
-        }
-        /* Teks berjalan */
-        .running-text {
-            position: absolute;
-            bottom: 10px;
-            width: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-        }
-        .running-text p {
-            display: inline-block;
-            white-space: nowrap;
-            animation: marquee 10s linear infinite;
-        }
-        @keyframes marquee {
-            from { transform: translateX(100%); }
-            to { transform: translateX(-100%); }
-        }
-    </style>
-</head>
-<body onclick="music()">
-    <div class="main">
-        <div class="haha">
-            <img src="https://1.bp.blogspot.com/-txnCag9Z9jM/UuKj2FcKOSI/AAAAAAAAAuY/ExDFUIUMyk0/s1600/caveirapirataprataimagek.png"><br>
-            <h1>.../Hacked By <font color="red">Mr Skk\...</font></h1>
-        </div>
-        <div class="mssg">
-            {+} Selamatkan Rakyat Indonesia {+}
-            <h3>Upah Minimum Regional DI NEGARA INDONESIA 1K $ Dukung Saya Jadi Pemimpin Indonesia</h3><div class="footer-greetings">
-            <b>Thank To</b></b><marquee>
-              <font size="2">
-                 Kenz0u | Bypass User | Doll404 | Raizo | Rexi | P3TET | 4C1L | SEO-C | T0ny99 | 
-        </marquee>
-        </div>
-        </div>
-        <div class="greetings">
-            <h2></h2>
-            <p>|SKK GRUP|</p>
-          
-    <button id="button">Play</button>
-    <audio id="background-music" loop>
-        <source src="https://l.top4top.io/m_3323xwtah1.mp3" type="audio/mp3">
-    </audio>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raizo was Here</title>
+  
+  <!-- Font horor jeung typed -->
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <script>
-        function music() {
-            var audio = document.getElementById('background-music');
-            var playButton = document.getElementById('button');
-            playButton.click();
-            audio.play();
-        }
-    </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://j.top4top.io/p_3380n7als1.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .judul {
+      font-family: 'Creepster', cursive;
+      font-size: 60px;
+      color: white;
+      text-shadow: 2px 2px 10px red;
+      margin-bottom: 20px;
+    }
+
+    .typed-text {
+      font-size: 55px;
+      font-family: 'Metal Mania', cursive;
+      color: #ff0000;
+      text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.8);
+    }
+
+    .running-text {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      color: #ccc;
+      font-family: 'Courier New', monospace;
+      font-size: 16px;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .running-text span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 20s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="judul">Hacked By k3nzou</div>
+  <div class="typed-text"></div>
+
+  <!-- Running text / credits -->
+  <div class="running-text">
+    <span>Created by Raizo | skk Grup | k3nzou | mr.skk | Urdick | D0LL404 | P3tet | Mr.4cil | Sun3o anjeng | </span>
+  </div>
+
+  <!-- Audio autoplay -->
+  <audio id="backsound" loop>
+    <source src="https://res.cloudinary.com/di1pwoapk/video/upload/v1744152761/musik_fta9vb.mp4" type="audio/mp3">
+  </audio>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      new Typed(".typed-text", {
+        strings: [
+          "The Shadows Whisper...",
+          "Beware the Dark...",
+          "Your Nightmare Awaits...",
+          "Raizo Still See You",
+          "We See You",
+          "But You Don't See Us"
+        ],
+        typeSpeed: 50,
+        backSpeed: 45,
+        backDelay: 2000,
+        loop: true
+      });
+
+      // Auto play backsound
+      let audio = document.getElementById("backsound");
+      audio.play().catch(() => {
+        document.body.addEventListener("click", () => {
+          audio.play();
+        }, { once: true });
+      });
+    });
+  </script>
 </body>
 </html>
